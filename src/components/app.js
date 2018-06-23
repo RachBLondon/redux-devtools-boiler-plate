@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import DevToools from './DevTools'
 
 export default class App extends Component {
   render() {
@@ -7,7 +6,6 @@ export default class App extends Component {
       <div>
         <h1> Redux with DevToools </h1>
         {this.props.children}
-        <DevToools/>
       </div>
     );
   }
